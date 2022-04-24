@@ -27,14 +27,15 @@
       color: aliceblue;
       font-family: 'Courier New', Courier, monospace;
       font-weight: bold;
-      padding: 25px;
+      padding: 10px;
+      text-decoration: none;
   }
 
 
   .container-header{
       display: flex;
-      background: bisque;
-      height: 250px;
+      background: #ffe4c4;
+      height: 450px;
       align-items: center;
       justify-content: space-evenly;
       padding: 25px;
@@ -42,9 +43,9 @@
 
   .headerimage-container{
       display: flex;
-      height: 250px;
-      width: 400px;
-      background: red;
+      height: 350px;
+      width: 500px;
+      background: #f0d2ad;
       align-items: center;
       justify-content: center;
       
@@ -52,9 +53,9 @@
 
   .headerimage{
     display: flex;
-    height: 150px;
-    width: 250px;
-    background: rgb(136, 255, 0);
+    height: 300px;
+    width: 430px;
+    background: #d4aa75;
     justify-content: center;
     align-items: center;
     
@@ -63,9 +64,49 @@
   .header-details{
     display: flex;
     flex-direction: column;
-    height: 200px;
-    width: 265px;
-    background: rgb(18, 212, 196);
+    /* height: 200px; */
+    width: 370px;
+    /* background: rgb(18, 212, 196); */
     align-items: flex-start;
     justify-content: flex-start;
+    font-size: 20px;
   }
+
+  .button1{
+    background-color: #d4aa75;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .container-foods{
+    display: flex;
+    background:   #fff3e5;
+    height: 450px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 25px;
+}
+
+.card1{
+  display: flex;
+  background: #d4a875;
+  height: 365px;
+  width: 250px;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: space-between;
+
+}
+
+.button2{
+  background-color: #ffffff;
+    color: #d4a875;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 8px;
+}
